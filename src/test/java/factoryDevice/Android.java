@@ -15,8 +15,8 @@ public class Android implements IDevice{
         capabilities.setCapability("deviceName","Tubo");
         capabilities.setCapability("platformVersion","9.0");
 
-        capabilities.setCapability("appPackage","");
-        capabilities.setCapability("appActivity","");
+        capabilities.setCapability("appPackage","com.vrproductiveapps.whendo");
+        capabilities.setCapability("appActivity","com.vrproductiveapps.whendo.ui.HomeActivity");
 
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("automationName","uiautomator2");
